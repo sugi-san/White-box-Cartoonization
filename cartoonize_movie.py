@@ -59,7 +59,7 @@ def cartoonize(load_folder, save_folder, model_path):
 if __name__ == '__main__':
     model_path = 'saved_models'
     load_folder = 'flames'
-    save_folder = 'cartoonized_images'
+    save_folder = 'cartoonized_flames'
     if not os.path.exists(save_folder):
         os.mkdir(save_folder)
     cartoonize(load_folder, save_folder, model_path)
